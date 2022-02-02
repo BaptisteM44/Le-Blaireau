@@ -403,6 +403,7 @@
     margin: 40px;
     display: flex;
     text-align: justify;
+    font-weight: 400;
   }
 
 /* ICON */
@@ -487,6 +488,9 @@ footer {
   .section{
     height: 100vh;
     }
+    .container{
+
+    }
     .container1{
         top: 25%;
         left: 25%;
@@ -543,4 +547,11 @@ footer {
     .toggle-menu{
         display: none;
     }
+}
+@media screen and (max-width: 380px) {
+
+  .section{
+    height: 180vh;
+    }
+
 }

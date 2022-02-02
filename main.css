@@ -525,6 +525,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   text-align: justify;
+  font-weight: 400;
 }
 
 /* ICON */
@@ -673,6 +674,12 @@ footer {
   }
   .toggle-menu {
     display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .section {
+    height: 180vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
