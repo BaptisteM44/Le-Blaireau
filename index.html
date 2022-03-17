@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-  <title>Le Blaireau</title>
-
-  <!-- <link href="./assets/bootstrap.css" rel="stylesheet"> -->
+  <meta name="description" content="LE BLAIREAU votre premier coiffeur barbier HOMME à Vertou.
+  Spécialiste de la taille de barbe et du rasage traditionnel sans oublier votre coupe de cheveux.
+  Réservation par internet ou au 02 49 09 65 89.">
+  <title>LE BLAIREAU - BARBIER COIFFEUR VERTOU</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="./main.css" rel="stylesheet">
@@ -16,93 +16,76 @@
 <body>
   <nav id="navbar">
     <div class="nav-elements" id="nav-elements">
-      <img id="logo" src="/media/images/logonoiretblanc.png" alt="">
-      <ul class="nav-links">
-        <li><a href="#parallax">Réservation</a></li>
-        <li><a href="#section2">Tarifs</a></li>
-        <li><a href="#section3">contact</a></li>
+      <img id="logo" src="/media/images/logonoiretblanc.png" alt="Logo de l'entreprise" title="logo">
+      <ul class="navbar__links shownav">
+        <li class="navbar__link first"><a href="#parallax">Réservation</a></li>
+        <li class="navbar__link second"><a href="#section2">Tarifs</a></li>
+        <li class="navbar__link third"><a href="#contact">contact</a></li>
       </ul>
-      <div id="toggle">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
+      <div class="burger">
+        <span class="span-burger"></span>
       </div>
-    </div>
-    <div id="menu">
-      <ul class="toggle-menu">
-        <li><a href="#parallax">Réservation</a></li>
-        <li><a href="#section2">Le salon</a></li>
-        <li><a href="#section3">contact</a></li>
-      </ul>
     </div>
   </nav>
   <main>
     <section class="section1" id="parallax">
-      <a href="https://booking.wavy.pro/leblaireau" target="_blank" rel="noopener noreferrer">
-        <button id="btn-resa" class="custom-btn btn-3">
+      <a class="lien-reserver" href="https://booking.wavy.pro/leblaireau" target="_blank" rel="noopener noreferrer">
+        <!-- <button id="btn-resa" class="custom-btn btn-3">
           <span>Réservation</span>
-        </button>
+        </button> -->
+        <span class="">Réserver</span>
       </a>
     </section>
     <section id="section2" class="section2">
-      <h2 class="section2-tarif">Tarifs</h2>
-        <div class="section">
-          <div class="container container1">
+      <h1 class="section2-tarif">Tarifs</h1>
+        <div class="section-tarif">
+          <div class="container">
             <div class="content">
               <h2 class="titre-card">Barbe</h2>
               <div class="price-card">
-                <span>Coupe Homme - 25€</span><br>
-                <span>Coupe Etudiant - 23€</span><br>
-                <span>Coupe Couronne - 20€</span>
+                <span>- Taille de Barbe: 20€</span><br>
+                <span>- Taille de Barbe + </span>
+                <span>   Rasage traditionnel : 23€</span>
               </div>
-              
             </div>
-            <div class="flap flap1"></div>
           </div>
-          <div class="container container2">
+          <div class="container">
             <div class="content">
               <h2 class="titre-card">Coupe</h2>
               <div class="price-card">
-                <span>Coupe Homme - 25€</span><br>
-                <span>Coupe Etudiant - 23€</span><br>
-                <span>Coupe Couronne - 20€</span>
+                <span>- Coupe Homme: 25€</span><br>
+                <span>- Coupe Etudiant: 23€</span><br>
+                <span>- Coupe Couronne: 20€</span>
               </div>
             </div>
-            <div class="flap flap2"></div>
           </div>
-          <div class="container container3">
+          <div class="container">
             <div class="content">
               <h2 class="titre-card">Forfaits</h2>
               <div class="price-card">
-                <span>Coupe Homme - 25€</span><br>
-                <span>Coupe Etudiant - 23€</span><br>
-                <span>Coupe Couronne - 20€</span>
+                <span>Coupe Homme + Taille de Barbe + Rasage: 45€</span><br>
+                <span>Coupe Couronne + Taille de Barbe + Rasage: 40€</span><br>
+                <span>Coupe Etudiant + Taille de Barbe + Rasage: 43€</span>
               </div>
             </div>
-            <div class="flap flap3"></div>
           </div>
         </div>
     </section>
     <section>
-        <div id="section3" class="section section3" >
+        <div class="section section3" >
         </div>
     </section>
     <section>
         <div id="section4" class="section4">
           <div class="section4-div">
-            <img src="/media/images/barber-in-india-1236998.jpeg" alt="" height="300" width="350">
+            <img class="photo-presentation" src="/media/images/presentation.jpg" alt="Photo coiffeur-barbier" height="300" width="300" title="Présentation">
           </div>
           <div class="section4-text">
-            <span>C'est en 2012 que je me suis lancé dans la coiffure un petit peu par hasard, au début juste pour aider ma mère qui a elle aussi un salon de coiffure sur vertou.
-              Me prenant au jeu et me découvrant une passion , je décide de faire un apprentissage dans ce salon. Les années s'enchaînent jusqu'en 2017 ou je valide mon dernier diplôme.
-              J'ai eu ensuite l'opportunité de pouvoir partir a l'étranger en ISLANDE travailler dans un véritable barbershop pendant 2 ans. Ce qui m'a permis de parfaire mon anglais mais aussi de pouvoir maîtriser toute les techniques  autour de la coupe homme mais aussi du rasage.
-              Fort de cette expérience, je suis rentré en France et j'ai travaillé dans deux coiffeurs barbiers sur Nantes ce qui m'a permis de continuer à développer mes techniques.
-              Depuis un certains temps l'idée de m'installer était dans ma tête, c'est en octobre 2021 j'ai eu l'occasion de visiter un local à vertou, c'est à ce moment là que le projet du salon LE BLAIREAU est apparu. 
-              Ayant grandi toute ma jeunesse à Vertou, c'est une certaine fierté de pouvoir ouvrir mon salon dans cette ville qui me tient à cœur. <br>
+            <span>Après plus de 10 ans dans la coiffure dont 5 en tant que coiffeur-barbier sur Nantes mais aussi en Islande,<br>
               
-              J'ai donc le plaisir de vous accueillir au salon LE BLAIREAU au 88 rue charles lecour à vertou.<br>
+              j'ai le plaisir de vous accueillir au salon LE BLAIREAU au 88 rue charles lecour à vertou.<br><br>
               
-              Au programme bien sûr la coupe, la taille de barbe mais aussi le rasage traditionnel à la lame avec son rituel (serviette chaude, baume après rasage,etc)<br>
+              Au programme bien sûr la coupe, la taille de barbe mais aussi le rasage traditionnel à la lame avec son rituel (serviette chaude, baume après rasage,etc)<br><br>
               
               Un espace revente ou vous pourrez retrouver tous vos produits préférés:<br>
               - DEPOT pour les produits de coiffage<br>
@@ -114,7 +97,7 @@
           </div>
         </div>
     </section>
-    <footer>
+    <footer id="contact">
       <div class="center">
         <div id="social-test">
             <ul class="social">
