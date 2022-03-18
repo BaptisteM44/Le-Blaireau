@@ -90,7 +90,7 @@ nav {
   color: #333;
 }
 
-.navbar__links {
+.navbarlinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,18 +101,18 @@ nav {
   line-height: 1.5rem;
 }
 
-.navbar__links, h2 {
+.navbarlinks, h2 {
   color: #333;
 }
 
-.navbar__links li {
+.navbarlinks li {
   padding: 1rem;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 /* BURGER*/
-navbar__links {
+navbarlinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,28 +128,26 @@ navbar__links {
 
 /*  Small device */
 @media screen and (max-width: 767.98px) {
-  .navbar__links {
+  .navbarlinks {
     overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     width: 0;
     height: auto;
     position: absolute;
-    top: 38px;
+    top: 100px;
     right: 0;
-    background-color: rgba(181, 188, 190, 0.5);
     -webkit-transform: translateX(110%);
             transform: translateX(110%);
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    z-index: -1;
+    z-index: -10;
   }
-  .show-nav .navbar__links {
+  .navbarlinks a {
+    color: #eee;
+  }
+  .show-nav .navbarlinks {
     width: 100vw;
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -231,16 +229,6 @@ navbar__links {
 }
 
 /*END BURGER*/
-.lien-reserver {
-  font-weight: 500;
-  font-size: 120px;
-  color: whitesmoke;
-  text-transform: uppercase;
-  text-decoration: none;
-  background-position-x: 10px;
-  margin-top: 400px;
-}
-
 .section1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,11 +347,12 @@ navbar__links {
   background-color: white;
   -webkit-box-shadow: 0 0 3px #333;
           box-shadow: 0 0 3px #333;
+  padding: 2rem 0;
 }
 
 .section2-tarif {
   text-align: center;
-  padding: 30px;
+  padding: 25px 0 40px 0;
   font-weight: 600;
   font-size: 35px;
   text-transform: uppercase;
@@ -389,12 +378,25 @@ navbar__links {
 }
 
 .container {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  background-color: cadetblue;
+  width: auto;
+  height: auto;
   padding: 7px;
   margin: auto;
+}
+
+.titre-card {
+  margin-left: 10%;
+}
+
+.price-card {
+  line-height: 250%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.content {
+  padding: 2rem;
+  border-left: 3px solid #000;
 }
 
 /* END CARD */
@@ -558,9 +560,10 @@ footer {
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 767px) {
   .nav-elements a {
     font-size: 18px;
+    color: white;
   }
 }
 /*# sourceMappingURL=main.css.map */

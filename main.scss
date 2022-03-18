@@ -61,21 +61,21 @@
   .nav-elements a:visited {
     color: #333;
   }
-  .navbar__links {
+  .navbarlinks {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     line-height: 1.5rem;
   }
-  .navbar__links, h2 {
+  .navbarlinks, h2 {
     color: #333;
   }
-  .navbar__links li {
+  .navbarlinks li {
     padding: 1rem;
     transition: all 0.2s ease;
   }
   /* BURGER*/
-  navbar__links { 
+  navbarlinks { 
     display:flex;  
   }
   .navbar__link { 
@@ -87,21 +87,22 @@
   
   /*  Small device */
   @media screen and (max-width:767.98px) {
-    .navbar__links { 
+    .navbarlinks { 
       overflow:hidden;
       display:flex;
-      flex-direction:column;
       width:0;
       height: auto;  
       position:absolute;
-      top:38px;
-      right:0;     
-      background-color: rgba(181, 188, 190, 0.5);    
+      top:100px;
+      right:0;
       transform: translateX(110%);
       transition: all .5s ease-in-out;
-      z-index: -1;
+      z-index: -10;
+      a{
+        color: #eee;
+      }
     }
-    .show-nav .navbar__links { 
+    .show-nav .navbarlinks { 
       
       width:100vw;    
       transform: translateX(0);
@@ -172,17 +173,7 @@
     }
   }
 
- /*END BURGER*/
- .lien-reserver{
-  font-weight: 500;
-  font-size: 120px;
-  color: whitesmoke;
-  text-transform: uppercase;
-  text-decoration: none;
-  background-position-x: 10px;
-  margin-top: 400px;
-}
-  
+ /*END BURGER*/  
   .section1{
     display: flex;
     align-items: center;
@@ -196,10 +187,6 @@
     background-size: cover;
     background-repeat:no-repeat;
     opacity: 0.8;
-    
-    a{
-      
-    }
 }
 
 /* BUTTON */
@@ -285,10 +272,11 @@
 .section2{
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 3px #333;
+    padding: 2rem 0;
 }
 .section2-tarif{
   text-align: center;
-  padding: 30px;
+  padding: 25px 0 40px 0;
   font-weight: 600;
   font-size: 35px;
   text-transform: uppercase;
@@ -308,12 +296,22 @@
   align-items: center;
 }
 .container{
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  background-color: cadetblue;
+  width: auto;
+  height: auto;
   padding: 7px;
   margin: auto;
+}
+.titre-card{
+  margin-left: 10%;
+}
+.price-card{
+  line-height: 250%;
+  font-weight: 400;
+  font-size: 18px;
+}
+.content{
+  padding: 2rem;
+  border-left: 3px solid #000;
 }
 
 /* END CARD */
@@ -429,12 +427,6 @@ footer {
 .social-legal{
   margin-bottom: 12px;
 }
-
-// @media screen and (max-width: 1400px) {
-//   .section1 a{
-//     margin-top: 400px;
-//   }
-// }
   @media screen and (min-width: 1000px) {
     main {
       margin: 0 auto;
@@ -451,9 +443,10 @@ footer {
       margin: 35px auto;
     }
   }
-  @media screen and (max-width: 630px) {
+  @media screen and (max-width: 767px) {
       .nav-elements a {
         font-size: 18px;
+        color: rgb(255, 255, 255);
       }
   }
 
