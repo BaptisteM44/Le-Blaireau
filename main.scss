@@ -296,13 +296,15 @@
   align-items: center;
 }
 .container{
-  width: auto;
+  width: 25%;
   height: auto;
-  padding: 7px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 1.2em 1.2em -0.9em rgba(128, 128, 128, 0.185);
 }
 .titre-card{
-  margin-left: 10%;
+  margin: 10%;
 }
 .price-card{
   line-height: 250%;
@@ -312,6 +314,8 @@
 .content{
   padding: 2rem;
   border-left: 3px solid #000;
+  height: 250px;
+  width: 450px;
 }
 
 /* END CARD */
