@@ -218,7 +218,7 @@
     font-weight: 400;
     font-size: 18px;
     text-transform: uppercase;
-    
+    text-decoration: none;
   }
   .btn-3:before,
   .btn-3:after {
@@ -440,6 +440,7 @@ footer {
   color: rgb(255, 255, 255);
   justify-content:space-around;
   padding: 0px 12px;
+  text-decoration: none;
 }
 .barre {
   border-right: 2px solid;
@@ -466,7 +467,6 @@ footer {
   @media screen and (max-width: 767px) {
       .nav-elements a {
         font-size: 18px;
-        color: rgb(255, 255, 255);
       }
   }
 

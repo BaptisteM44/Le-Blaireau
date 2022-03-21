@@ -282,6 +282,7 @@ navbarlinks {
   font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btn-3:before,
@@ -559,6 +560,7 @@ footer {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0px 12px;
+  text-decoration: none;
 }
 
 .barre {
@@ -590,7 +592,6 @@ footer {
 @media screen and (max-width: 767px) {
   .nav-elements a {
     font-size: 18px;
-    color: white;
   }
 }
 /*# sourceMappingURL=main.css.map */
