@@ -409,8 +409,10 @@ navbarlinks {
   font-size: 18px;
   padding-left: 2rem;
   border-left: 3px solid #000;
-  height: 145px;
+  height: 160px;
   width: 420px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 /* END CARD */
@@ -571,6 +573,11 @@ footer {
   .container {
     width: auto;
   }
+  .price-card {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -595,6 +602,8 @@ footer {
   .price-card {
     font-size: 15px;
     width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
