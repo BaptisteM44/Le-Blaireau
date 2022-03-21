@@ -244,7 +244,7 @@ navbarlinks {
   height: 100vh;
   z-index: 3;
   background-position-x: 36%;
-  background-image: url(media/images/salon.jpg);
+  background-image: url(images/salon.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -360,9 +360,12 @@ navbarlinks {
 
 /* CARD */
 .section-tarif {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -370,15 +373,17 @@ navbarlinks {
       -ms-flex-pack: center;
           justify-content: center;
   font-weight: bold;
-  width: 100%;
-  height: 50vh;
+  width: 90%;
   height: auto;
   padding-bottom: 20px;
   align-items: center;
 }
 
 .container {
-  width: 25%;
+  display: block;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 30%;
   height: auto;
   margin: 0 auto;
   padding: 0px;
@@ -395,19 +400,36 @@ navbarlinks {
   line-height: 250%;
   font-weight: 400;
   font-size: 18px;
+  padding-left: 2rem;
+  border-left: 3px solid #000;
+  height: 160px;
+  width: 420px;
+  padding: auto;
 }
 
-.content {
-  padding: 2rem;
-  border-left: 3px solid #000;
-  height: 250px;
-  width: 450px;
+@media screen and (max-width: 1400px) {
+  .section-tarif {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .price-card {
+    font-size: 15px;
+    width: 350px;
+  }
 }
 
 /* END CARD */
 .section3 {
   height: 400px;
-  background-image: url(media/images/salon2.jpg);
+  background-image: url(images/salon2.jpg);
   background-attachment: fixed;
   background-size: cover;
   -webkit-box-shadow: 0 0 3px #333;
