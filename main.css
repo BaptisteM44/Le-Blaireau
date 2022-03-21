@@ -418,7 +418,7 @@ navbarlinks {
 /* END CARD */
 .section3 {
   height: 400px;
-  background-image: url(images/salon2.jpg);
+  background-image: url(images/salon2.jpg) center top no-repeat scroll;
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
