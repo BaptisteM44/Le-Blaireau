@@ -430,7 +430,7 @@ navbarlinks {
 /* END CARD */
 .section3 {
   height: 400px;
-  background: url(images/salon2.jpg) top;
+  background-image: url(images/salon2.jpg);
   background-attachment: fixed !important;
   background-size: cover !important;
   background-repeat: no-repeat;
