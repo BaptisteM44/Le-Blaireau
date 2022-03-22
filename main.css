@@ -270,7 +270,8 @@ navbarlinks {
 
 .btn-3 {
   line-height: 32px;
-  padding: 0;
+  padding-top: 1px;
+  text-align: center;
   background-color: #000;
 }
 
@@ -401,7 +402,7 @@ navbarlinks {
 }
 
 .titre-card {
-  margin: 10%;
+  margin: 8%;
 }
 
 .icon-title {
@@ -429,7 +430,7 @@ navbarlinks {
 /* END CARD */
 .section3 {
   height: 400px;
-  background: url(images/salon2.jpg) fixed;
+  background: url(images/salon2.jpg) center center no-repeat fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;

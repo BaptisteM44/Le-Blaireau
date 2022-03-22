@@ -209,9 +209,9 @@
   }
   .btn-3 {
     line-height: 32px;
-    padding: 0;
+    padding-top: 1px;
+    text-align: center;
     background-color: #000;
-    
   }
   .btn-3:hover{
     background: transparent;
@@ -315,7 +315,7 @@
   box-shadow: 0 1.2em 1.2em -0.9em rgba(128, 128, 128, 0.185);
 }
 .titre-card{
-  margin: 10%;
+  margin: 8%;
 }
 .icon-title{
   width: 40px;
@@ -424,7 +424,6 @@ footer {
       }
     }
   }
-  
   .social:hover > li {
     opacity: 0.5;
   }
