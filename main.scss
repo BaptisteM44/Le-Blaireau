@@ -102,7 +102,7 @@
       transition: all .5s ease-in-out;
       z-index: -10;
       a{
-        color: #eee;
+        color: rgb(0, 0, 0);
       }
     }
     .show-nav .navbarlinks { 
@@ -306,9 +306,8 @@
   align-items: center;
 }
 .container{
-  display: block;
+  display: flex;
   flex-wrap: wrap;
-  width: 30%;
   height: auto;
   margin: 0 auto;
   padding: 0px;
@@ -318,13 +317,20 @@
 .titre-card{
   margin: 10%;
 }
+.icon-title{
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  margin: auto;
+}
 .price-card{
   line-height: 250%;
   font-weight: 400;
   font-size: 18px;
   padding-left: 2rem;
   border-left: 3px solid #000;
-  height: 160px;
+  height: auto;
+  min-height: 170px;
   width: 420px;
   padding-top: 15px;
   padding-bottom: 20px;
@@ -354,6 +360,7 @@
     width: 100%;
     height: 100%;
     position: relative;
+    padding-top: 20px;
 }
   .photo-presentation{
     height: 50%;
@@ -461,6 +468,7 @@ footer {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    min-height: fit-content;
   }
 }
   @media screen and (min-width: 1000px) {
@@ -483,8 +491,6 @@ footer {
     .price-card{
       font-size: 15px;
       width: 350px;
-      padding-top: 20px;
-      padding-bottom: 20px;
     }
   }
   @media screen and (max-width: 767px) {
