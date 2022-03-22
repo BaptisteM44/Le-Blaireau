@@ -343,7 +343,10 @@
     height: 100%;
     background-image: url(images/salon2.jpg);
     background-attachment: fixed !important;
-    background-size: cover;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat:no-repeat;
     box-shadow: 0 0 3px #333;
     background-position: center;
