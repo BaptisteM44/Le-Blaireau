@@ -430,11 +430,10 @@ navbarlinks {
 /* END CARD */
 .section3 {
   height: 400px;
-  background: url(images/salon2.jpg) center center no-repeat fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
+  background: url(images/salon2.jpg) top;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
   -webkit-box-shadow: 0 0 3px #333;
           box-shadow: 0 0 3px #333;
   background-position: center;
