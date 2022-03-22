@@ -429,16 +429,11 @@ navbarlinks {
 /* END CARD */
 .section3 {
   height: 400px;
-  background: url(images/salon2.jpg);
+  background-image: url(images/salon2.jpg);
   background-attachment: fixed;
   background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -webkit-box-shadow: 0 0 3px #333;
-          box-shadow: 0 0 3px #333;
-  background-position: center;
-  overflow: hidden;
+  background-repeat: no-repeat;
+  opacity: 0.8;
 }
 
 .section4 {
