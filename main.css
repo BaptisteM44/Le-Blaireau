@@ -16,6 +16,20 @@ body {
   background: #eee;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(images/salon2.jpg) no-repeat center center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
 nav {
   width: 100%;
   background: white;
@@ -244,12 +258,11 @@ navbarlinks {
   font-weight: bold;
   width: 100%;
   height: 100vh;
-  z-index: 3;
   background-position-x: 36%;
   background-image: url(images/salon.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* BUTTON */
@@ -429,21 +442,7 @@ navbarlinks {
 
 /* END CARD */
 .section {
-  height: 250px;
-}
-
-.section3 {
-  height: 100%;
-  background-image: url(images/salon2.jpg);
-  background-attachment: fixed !important;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-box-shadow: 0 0 3px #333;
-          box-shadow: 0 0 3px #333;
-  background-position: center;
-  overflow: hidden;
-  opacity: 0.8;
+  height: 400px;
 }
 
 .section4 {
