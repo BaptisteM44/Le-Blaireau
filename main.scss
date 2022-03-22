@@ -332,7 +332,7 @@
 /* END CARD */
 .section3{
     height: 400px;
-    background: url(images/salon2.jpg) no-repeat center center fixed;
+    background: url(images/salon2.jpg);
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -340,7 +340,8 @@
     -o-background-size: cover;
     box-shadow: 0 0 3px #333;
     background-position: center;
-    overflow: hidden;    
+    overflow: hidden;
+    // opacity: 0.8;
 }
 
 .section4 {

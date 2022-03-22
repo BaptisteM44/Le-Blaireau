@@ -19,8 +19,8 @@ window.addEventListener('scroll', function(){
 
 })
 /* END navbar flow */
-/* BURGER */
 
+/* BURGER */
 function toggleMenu () {  
   const navbar = document.querySelector('.nav-elements');
   const burger = document.querySelector('.burger');
