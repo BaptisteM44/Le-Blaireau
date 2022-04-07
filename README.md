@@ -4,7 +4,7 @@
 ## Projet
 
 Site vitrine Coiffeur / Barbier
-  Lien de réservation 
+   + Lien de réservation 
   
   
 ## Technos 
