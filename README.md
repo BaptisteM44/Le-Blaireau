@@ -3,8 +3,10 @@
 
 ## Projet
 
-Site vitrine Coiffeur / Barbier
-   + Lien de réservation 
+Site vitrine fromscratch Coiffeur / Barbier
+   + Effets visuels simple
+   + SEO
+   + Lien de réservation
   
   
 ## Technos 
